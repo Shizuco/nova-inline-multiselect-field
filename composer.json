@@ -1,0 +1,39 @@
+{
+  "name": "shizuco/nova-inline-multiselect-field",
+  "description": "A Laravel Nova inline multiselect field.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "multiselect",
+    "inline",
+    "field"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0",
+    "laravel/nova": "^4.12.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shizuco\\NovaInlineMultiSelectField\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shizuco\\NovaInlineMultiSelectField\\FieldServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ]
+}
